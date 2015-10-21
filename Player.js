@@ -1,4 +1,4 @@
-var ctx;
+var ctx;//remove the globals
 var goal;
 
 function Player()
@@ -12,7 +12,7 @@ function Player()
 Player.prototype.move = function(e)
 {
 	//W = 119
-	//A = 97
+	//A = 97// Remove unused code
 	//S = 115
 	//D = 100
 	var z = e.keyCode;

@@ -1,4 +1,4 @@
-var ctx;
+var ctx;// more globals use this. instead
 
 function Goal()
 {

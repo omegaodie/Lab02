@@ -1,5 +1,5 @@
-var ctx;
-var player;
+var ctx;//these are bad globals
+var player;// they are not required and are bad coding practise
 
 function Game()
 {
@@ -20,7 +20,7 @@ Game.prototype.gameLoop = function(e)
 	player.move(e);
 	goal.draw();
 	player.draw();
-	//console.log("gameLoop");
+	//console.log("gameLoop");// finished with test statements should be deleted
 	window.requestAnimationFrame(game.gameLoop);
 }
 
